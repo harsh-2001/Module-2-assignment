@@ -1,0 +1,73 @@
+body{
+	background-color: pink;
+}
+h1
+{ color: red;
+text-align:center;
+font-size: 500%;
+margin-bottom: 50px;}
+h3
+{ color:blue;
+	text-align: center;
+border: 1px blue solid ;
+background-color: lime;
+box-sizing: border-box; 
+
+}
+#aim
+{ color: blue;
+border: 2PX solid black; 
+padding: 5px;
+box-sizing: border-box;
+margin :10px;
+width: 80%;
+height: 25%;
+background-color: hotpink; 
+float: left;
+}
+#vision
+{ color: black;
+border: 2PX solid black; 
+padding: 5px;
+box-sizing: border-box; 
+margin: 10px;
+width: 80%;
+height: 25%;
+background-color:  #ff6600;
+float: left;
+}
+#mission
+{ color: blue;
+border: 2PX solid black; 
+padding: 5px;
+box-sizing: border-box; 
+margin: 10px;
+width: 80%;
+height: 25%;
+background-color: yellow;
+float: left;}
+ .row{
+ 	width:100%;
+ }
+
+ @media (min-width:992px ){
+h1 {margin-bottom: 100px; font-size: 100px ;
+}
+h3{ font-size:30px; }	
+#aim{ width: 30%; height: 45%; font-size: 20px; margin-left: 32px;}
+#vision{width: 30%;height: 45%; font-size: 20px; }
+#mission{width: 30%;height: 45%; font-size: 20px; }}
+@media (min-width: 768px) and (max-width: 991px){
+	h1 {font-size:75px;}
+	#aim{ width: 45.5%;height:35%; margin-left: 25px;  }
+#vision{width: 45.5%;height:35%;
+ }
+#mission{width: 93.5%;height:35% ;margin-left: 25px;
+ }
+}
+@media (max-width: 767px){h1 {margin-bottom: 30px;
+ font-size: 55px}
+	#aim{ width: 90%;margin-left: 25px;height: 25%; }
+#vision{width: 90%; margin-left: 25px;height: 25%;}
+#mission{width: 90%; margin-left: 25px;height: 25%;}
+}
